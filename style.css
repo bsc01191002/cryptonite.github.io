@@ -1,0 +1,21 @@
+.navbar-brand img{
+  height: 80px;
+}
+header {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+.navbar {
+padding: 5px 0;
+background-color: #584b4f !important;
+color: #efeae1;
+font-size: 14px;
+height: 100px;
+}
+.navbar a {
+  color: #efeae1;
+  font-size: 14px;
+}
+body {
+  text-align: center;
+}

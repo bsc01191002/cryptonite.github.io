@@ -1,28 +1,33 @@
-.navbar-brand img{
+.navbar-brand img {
   height: 80px;
 }
+
 header {
   padding-left: 0 !important;
   padding-right: 0 !important;
 }
+
 .navbar {
-padding: 5px 0;
-background-color: white !important;
-font-size: 14px;
-height: 100px;
-position: relative;
+  padding: 5px 0;
+  background-color: white !important;
+  font-size: 14px;
+  height: 100px;
+  position: relative;
 }
 
-.container{
+.container {
   position: absolute;
   left: 50%;
-  margin-left: -50px !important;  /* 50% of your logo width */
+  margin-left: -50px !important;
+  /* 50% of your logo width */
   display: block;
 }
+
 .navbar a {
   color: olive;
   font-size: 14px;
 }
+
 body {
   text-align: center;
 }

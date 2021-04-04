@@ -171,40 +171,71 @@ h2 a{
 
 /*Support Us Section*/
 
+
+
+h3.heading1{
+    font-size: 3.0rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 1.9rem;
+    color: #1e7e34;
+}
+
+
 .carousel-control-prev-icon,
 .carousel-control-next-icon {
   background-size: 100%, 100%;
-  height: 40px;
-  width: 40px;
-  background: #03badc;
-  border-radius: 50%;
-  border: none;
+  height: 50px;
+  width: 50px;
+  background: #1e7e34;
+  border-radius: 60%;
+  border: thick;
   background-image: none;
   box-shadow: 1px 1px 3px grey;
-  cursor: pointer;
 }
 
-.product-div svg.svg-inline--fa {
+.product-carou svg.svg-inline--fa {
   color: white;
 }
 
-.product-div span.i-left{
+.product-carou span.i-left{
   position: absolute;
   top: 50%;
   left: 10px;
 }
 
-.product-div span.i-right {
+.product-carou span.i-right {
   position: absolute;
   top: 50%;
   right: 10px;
 }
 
-.product-div svg. {
-    color: white!important;
+.product-carou span.i-left{
+    position: absolute;
+    top: 50%;
+    left: 10px;
 }
 
-.product img {
-    max-width: 100%;
-    height: auto;
+.products img {
+    width: 100%;
+    height: 20rem;
   }
+
+
+
+  /*Footer*/
+
+footer{
+    padding-top: 0.05rem; 
+    padding-bottom: 1rem; 
+    background:#1e7e34;
+}
+
+footer a{
+  color: #fff;
+
+}
+
+footer a:hover{
+    color: #fff;
+}

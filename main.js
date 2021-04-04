@@ -1,4 +1,4 @@
-//FakeStoreAPI end point: https://fakestoreapi.com/products
+
 //Variables
 let products = []
 let current_first = 0;
@@ -26,7 +26,6 @@ next_btn.addEventListener('click', function() {
     showProducts(current_first);
 })
 
-//Helper functions
 function fetchProducts() {
     let xhr = new XMLHttpRequest();
     xhr.open(
@@ -39,16 +38,13 @@ function fetchProducts() {
             let result = JSON.parse(this.responseText);
             products = result;
             showProducts(0);
-        } else {
-            products = staticCatalog;
-            showProducts(0);
         }
     }
     xhr.send();
 }
 
 function showProducts(first) {
-    let product = document.querySelector('.product');
+    let product = document.querySelector('.products');
     let last = first + 3;
     if (last > (product.length - 1)) {
         last -= (products.length);
@@ -72,7 +68,7 @@ function showProducts(first) {
         }
         html += `
             <div class="col-lg-3 col-md-6 col-sm-12 mb-2">
-                <div class="product-item d-flex flex-column align-items-center justify-content-center">
+                <div class="product-item d-flex flex-column align-items-center">
                     <img src="${showingProducts[i].image}">
                     <p class="mt-2 text-center">${showingProducts[i].title}</p>
                     <h5 class="${class_content} text-center">$${showingProducts[i].price}</h5>

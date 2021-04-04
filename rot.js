@@ -12,3 +12,8 @@ function update() {
 		+document.getElementById("rot").value
 	);
 }
+
+$("#rot").on("change", function () {
+	let selected = document.getElementById("rot").value;
+	$("#output").attr('placeholder', 'ROT ' + selected);
+});

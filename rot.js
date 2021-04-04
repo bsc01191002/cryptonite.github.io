@@ -15,5 +15,5 @@ function update() {
 
 $("#rot").on("change", function () {
 	let selected = document.getElementById("rot").value;
-	$("#output").attr('placeholder', 'ROT ' + selected);
+	$("#output").attr('placeholder', 'ROT ' + selected + ' Output');
 });

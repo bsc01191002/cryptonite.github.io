@@ -68,7 +68,7 @@ function showProducts(first) {
         }
         html += `
             <div class="col-lg-3 col-md-6 col-sm-12 mb-2">
-                <div class="product-item d-flex flex-column align-items-center">
+                <div class="product-item d-flex flex-column align-items-center h-100">
                     <img src="${showingProducts[i].image}">
                     <p class="mt-2 text-center">${showingProducts[i].title}</p>
                     <h5 class="${class_content} text-center">$${showingProducts[i].price}</h5>

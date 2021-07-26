@@ -1,2 +1,2 @@
 # thecryptonite.github.io
- Final Group Project - Web Dev
+Case Study Project - Project Management

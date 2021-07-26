@@ -25,7 +25,12 @@
             autofocus></textarea></p>
 
     <p class="arrow">↓</p>
-
+    <p>
+        <select id="type" onchange="update()">
+            <option value="1" selected>Encrypt</option>
+            <option value="2">Decrypt</option>
+        </select>
+    </p>
     <p><select id="rot" onchange="update()">
             <option value="1">rot1</option>
             <option value="2">rot2</option>
